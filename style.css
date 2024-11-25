@@ -1,0 +1,136 @@
+html,
+body {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: rgb(245, 244, 244);
+  color: rgb(188, 90, 127);
+  padding: 5px;
+}
+#navigation {
+  margin: 10px;
+}
+#mainDiv {
+  padding: 5px;
+  display: flex;
+}
+.left_div {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#section {
+  padding: 5px;
+  background-color: #110276;
+  margin-bottom: 3px;
+}
+#article {
+  padding: 5px;
+  background-color: rgb(231, 56, 56);
+}
+
+.image_div {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(147, 142, 142);
+}
+img {
+  object-fit: cover;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
+h1 {
+  color: red;
+}
+
+/*third page */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.thirdNav {
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  gap: 15px;
+}
+.thirdNav > a {
+  padding: 10px;
+  color: white;
+}
+.content_container {
+  display: flex;
+  justify-content: center;
+  height: 83vh;
+}
+
+.content_container .nav {
+  float: left;
+  background-color: rgb(228, 227, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav_links > a {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.content {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.content>h1{
+  width: 100%;
+  text-align: left;
+}
+.content>p{
+ line-height: 1.5;
+ color: rgb(16, 15, 16);
+}
+.container .image_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+margin: 20px;
+}
+
+.third_footer {
+  width: 100%;
+  background-color: rgb(241, 239, 239);
+}
+.third_footer > p {
+  padding: 5px;
+}
