@@ -53,6 +53,10 @@ a {
   font-size: 20px;
   color: blue;
   font-weight: bold;
+  padding: 10px;
+}
+a:hover{
+  color: red;
 }
 h1 {
   color: red;
@@ -69,14 +73,12 @@ h1 {
 
 .thirdNav {
   width: 100%;
-  background-color: gray;
+  background-color: rgb(188, 184, 184);
   display: flex;
   gap: 15px;
 }
-.thirdNav > a {
-  padding: 10px;
-  color: white;
-}
+
+
 .content_container {
   display: flex;
   justify-content: center;
